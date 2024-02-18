@@ -6,6 +6,8 @@
  font-family: 'Sora', sans-serif;
 }
 header{
+    max-width: 1300px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,12 +65,12 @@ button{
 
 /* section home */
 .home{
+    margin: auto;
     max-width: 1300px;
     padding: 50px 100px;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    margin: auto;
 }
 .home-content{
     width: auto;
@@ -151,6 +153,13 @@ margin: auto;
         flex-direction: column;
         justify-content: center;
         padding-bottom: 20px;
+        border-radius: 3px;
+    }
+    .skill--:hover{
+        .all-skills img{
+        background-color: rgb(255, 0, 0);
+        }
+        background-color: rgb(173, 151, 151);
     }
     .name{
         font-size: 20px;
@@ -288,6 +297,8 @@ font-size: 40px;
     /* section testimonials */
     .testimonials{
         padding: 100px;
+        max-width: 1300px;
+        margin: auto;
     }
     .testimonials h2{
         text-align: center;
@@ -296,8 +307,6 @@ font-size: 40px;
 
     }
     .all-testimonials{
-        max-width: 1000px;
-        margin: auto;
         display: flex; 
         flex-wrap: wrap;
         align-items: center;
@@ -317,7 +326,7 @@ font-size: 40px;
     border: 20px;
     padding: 40px;
  }
- .testi.especial{
+ .testi:hover{
     background-color: black;
     color: white;
  }
