@@ -536,6 +536,10 @@ header{
         width: 130px;
         height: 130px;
     }
+    .bottom-footer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 
