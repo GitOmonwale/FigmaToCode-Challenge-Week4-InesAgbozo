@@ -381,6 +381,7 @@ font-size: 40px;
     background-color: black;
     justify-content: space-between;
     color: white;
+
  padding:10px 100px;
  margin: auto;
  }
@@ -539,6 +540,7 @@ header{
     .bottom-footer{
         padding-left: 0px;
         padding-right: 0px;
+        gap: 20px;
     }
 }
 
